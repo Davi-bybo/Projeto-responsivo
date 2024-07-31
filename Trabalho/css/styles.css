@@ -1,0 +1,68 @@
+body{
+    background-image: url(/img/1600x900\ filme-Photoroom.png) ;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    color: white;
+}
+
+p{
+ color: white;
+ text-align: center;
+ font-family: monospace;
+ font-size: x-large;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+
+div.video{
+    margin: 0px 20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 45%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+.imgs> img{
+    margin: 5px;
+}
+
+.imgs{
+    display: flex;
+    margin:auto;
+    width: 70vw;
+    
+}
+
+.imgs .card{
+     width: 20%;
+    justify-content: center;
+    margin: auto;
+}
+
+.card img{
+    height: 270px;
+    width: auto;
+}
+
+h4{
+    color: white;
+    font-family: monospace;
+    margin: auto;
+}
+
+
